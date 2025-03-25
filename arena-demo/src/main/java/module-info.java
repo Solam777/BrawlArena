@@ -1,8 +1,10 @@
-module g62415.prj4.arenademo {
+module g62415.prj4.BrawlArena {
     requires javafx.controls;
     requires javafx.fxml;
 
 
-    opens g62415.prj4.arenademo to javafx.fxml;
-    exports g62415.prj4.arenademo;
+    opens g62415.prj4.BrawlArena to javafx.fxml;
+    exports g62415.prj4.BrawlArena;
+    exports g62415.prj4.BrawlArena.Controller;
+    opens g62415.prj4.BrawlArena.Controller to javafx.fxml;
 }
