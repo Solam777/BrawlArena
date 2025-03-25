@@ -25,9 +25,7 @@ Le projet mêle traitement d’image, base de données, logique métier et inter
 
 Le diagramme de classe ci-dessous illustre la structure du modèle de l'application.
 
-📎 _[À insérer : diagramme_classe.png dans le dossier /images]_  
-
-![Diagramme de classe](./images/diagramme_classe.png)
+![Diagramme de classe](Diagram_Brawler_Arena_V1.png)
 
 ---
 
@@ -55,28 +53,47 @@ Les tests fonctionnels élémentaires pour le projet sont les suivants :
 
 ## Calendrier Hebdomadaire des Tâches
 
-### Semaine 1 - 6H
+### Semaine 1 
 
 | Qui       | Description  
 |--         | --
-| Tous      | Analyse du projet, choix des fonctionnalités
-| Solam     | Initialisation de Git, dépôt et README
-| Darlin    | Rédaction de la description des besoins
+| Tous      | Analyse des besoins et fonctionnalités principales
+| Solam     | Rédaction de la description des besoins
+| Darlin    | Initialisation de Git, dépôt et README
+| Tous      | Réalisation du diagramme de classes (modèle uniquement)
 
-### Semaine 2 - 6H
 
-| Qui       | Description  
-|--         | --
-| Solam     | Implémentation de la structure de la base de données
-| Darlin    | Intégration de la librairie OCR (Tesseract)
-
-### Semaine 3 - 6H
+### Semaine 2
 
 | Qui       | Description  
 |--         | --
-| ...       | _À compléter_
+| Solam     | Intégration de la librairie OCR + classe OCRServicedonnées
+| Darlin    | Implémentation de la base de données + DatabaseManager + Repository
+| Tous      | Test OCR sur 2-3 images + premières données en base
 
----
+### Semaine 3
+
+| Qui       | Description  
+| Solam     | Connexion entre OCR et la vue Scan (ScanController)
+| Darlin    | Création des vues FXML principales (Accueil, Scan, Equipe)
+| Tous      | Insertion des images de Brawlers + test de l’affichage
+
+### Semaine 4
+
+| Qui       | Description  
+| Solam     | Classe BattleSimulator + logique de calcul des vainqueurs
+| Darlin    | Connexion des équipes + enregistrement des matchs dans la base
+| Tous      | Création de la vue Historique + test des matchs
+
+### Semaine 5 
+
+| Qui       | Description  
+| Solam     | Nettoyage du code OCR et JavaDoc
+| Darlin    | Écriture des tests fonctionnels + vérification OCR + corrections
+| Tous      | Écriture des tests fonctionnels + vérification OCR + corrections
+
+
+
 
 ## Installation et utilisation
 
