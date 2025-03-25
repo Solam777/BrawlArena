@@ -1,14 +1,23 @@
 package g62415.prj4.arenademo;
 
 import javafx.fxml.FXML;
+import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 
 public class ArenaController {
-    @FXML
-    private Label welcomeText;
+
+
+    public ArenaController() {
+        System.out.println("ArenaController created!");
+    }
 
     @FXML
-    protected void onHelloButtonClick() {
-        welcomeText.setText("Welcome to JavaFX Application!");
+    private void initialize() {
+        System.out.println("ArenaController initialized!");
+    }
+
+
+    public void ClickedBtn() {
+        System.out.println("clicked!");
     }
 }
