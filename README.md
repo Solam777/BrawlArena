@@ -33,6 +33,9 @@
    - À la fin des 3 rounds, un vainqueur global est désigné.  
 
 ---
+## Preview
+
+---
 
 ## Diagramme de Classe
 
