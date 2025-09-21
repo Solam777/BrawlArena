@@ -139,7 +139,7 @@ L'application respecte le **design pattern MVC** :
 2. Navigate to the project directory:
 
    ```bash
-   cd 
+   cd arena-demo
    ```
 
 3. Start the project using Maven:
